@@ -1,0 +1,54 @@
+papers:
+
+  - title: "Few-shot Weakly-Supervised Object Detection via Directional Statistics"
+    authors: "Amirreza Shaban<sup>‡</sup>, <b>Amir Rahimi</b><sup>‡</sup>, Thalaiyasingam Ajanthan, Byron Boots, Richard Hartley"
+    venue: "Arxiv preprint, 2021"
+    preprint: "https://arxiv.org/abs/2103.14162"
+    paper_pdf: "https://arxiv.org/pdf/2103.14162"
+    selected: y
+
+  - title: "Calibration of neural networks using splines"
+    authors: "Kartik Gupta, <b>Amir Rahimi</b>, Thalaiyasingam Ajanthan, Thomas Mensink, Cristian Sminchisescu, Richard Hartley"
+    venue: "International Conference on Learning Representation, (ICLR 2021), Virtual Conference (formerly Vienna, Austria)."
+    preprint: "https://arxiv.org/abs/2103.14162"
+    openreview_website: "https://openreview.net/forum?id=eQe8DEWNN2W"
+    paper_pdf: "https://openreview.net/pdf?id=eQe8DEWNN2W"
+    code: "https://github.com/kartikgupta-at-anu/spline-calibration"
+    selected: y
+
+  - title: "Post-hoc Calibration of Neural Networks"
+    authors: "<b>Amir Rahimi</b>, Kartik Gupta, Thalaiyasingam Ajanthan, Thomas Mensink, Cristian Sminchisescu, Richard Hartley"
+    venue: "Arxiv preprint, 2020"
+    preprint: "https://arxiv.org/abs/2006.12807"
+    paper_pdf: "https://arxiv.org/pdf/2006.12807"
+    selected: y
+
+  - title: "Pairwise similarity knowledge transfer for weakly supervised object localization"
+    authors: "<b>Amir Rahimi</b><sup>‡</sup>, Amirreza Shaban<sup>‡</sup>, Thalaiyasingam Ajanthan, Richard Hartley, Byron Boots"
+    venue: "European Conference on Computer Vision, (ECCV 2020), Virtual Conference (formerly Glasgow, Scotland)."
+    preprint: "https://arxiv.org/abs/2003.08375"
+    proceedings_website: "https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/4628_ECCV_2020_paper.php"
+    paper_pdf: "http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123690392.pdf"
+    code: "https://github.com/AmirooR/Pairwise-Similarity-knowledge-Transfer-WSOL"
+    video: "https://www.youtube.com/watch?v=CGyZGbpkd8E"
+    selected: y
+
+  - title: "Intra order-preserving functions for calibration of multi-class neural networks"
+    authors: "<b>Amir Rahimi</b><sup>‡</sup>, Amirreza Shaban<sup>‡</sup>, Ching-An Cheng<sup>‡</sup>, Richard Hartley, Byron Boots"
+    venue: "34th Conference on Neural Information Processing Systems (NeurIPS 2020), Virtual Conference (formerly Vancouver, Canada)."
+    preprint: "https://arxiv.org/abs/2003.06820"
+    proceedings_website: "https://proceedings.neurips.cc/paper/2020/hash/9bc99c590be3511b8d53741684ef574c-Abstract.html"
+    paper_pdf: "https://proceedings.neurips.cc/paper/2020/file/9bc99c590be3511b8d53741684ef574c-Paper.pdf"
+    code: "https://github.com/AmirooR/IntraOrderPreservingCalibration"
+    video: "https://www.youtube.com/watch?v=0fm1BqGAlOk"
+    selected: y
+    
+  - title: "Learning to find common objects across few image collections"
+    authors: "Amirreza Shaban<sup>‡</sup>, <b>Amir Rahimi</b><sup>‡</sup>, Shray Bansal, Stephen Gould, Byron Boots, Richard Hartley"
+    venue: "Proceedings of the IEEE/CVF International Conference on Computer Vision, (ICCV 2019), Seoul, Korea."
+    preprint: "https://arxiv.org/abs/1904.12936"
+    proceedings_website: "https://openaccess.thecvf.com/content_ICCV_2019/html/Shaban_Learning_to_Find_Common_Objects_Across_Few_Image_Collections_ICCV_2019_paper.html"
+    paper_pdf: "https://openaccess.thecvf.com/content_ICCV_2019/papers/Shaban_Learning_to_Find_Common_Objects_Across_Few_Image_Collections_ICCV_2019_paper.pdf"
+    code: "https://github.com/haamoon/finding_common_object"
+    selected: y
+

@@ -1,0 +1,89 @@
+---
+layout: default
+title: Home
+---
+<!-- ========== ABOUT ========== -->
+<div class="docs-section" id="about">
+  <h4>About</h4>
+  <p>
+  I am a PhD student in the <a href="http://cecs.anu.edu.au" target="_blank">College of Engineering and Computer Science</a> at the <a href="http://anu.edu.au" target="_blank">Australian National University</a>, advised by Prof. <a href="http://users.cecs.anu.edu.au/~hartley/" target="_blank">Richard Hartley</a>.
+  I received my bachelor's and master's degrees from the <a href="http://ut.ac.ir/en" target="_blank">University of Tehran</a>. 
+  My research interests lie in the fields of Computer Vision and Machine Learning.
+  Specifically, I work on problems with limited data/supervision, deep neural network confidence calibration, and inference in probabilistic graphical models. 
+  I am also interested in meta-learning and deep invertible networks.  </p>
+</div>
+
+
+<!-- ========== PUBLICATIONS ========== -->
+<div class="docs-section" id="publications">
+  <h4>Recent Publications</h4>
+
+  <p>(<a href="https://scholar.google.com/citations?hl=en&user=dTue6HQAAAAJ" target="_blank">Google Scholar Profile</a>)</p>
+  <p><sup>‡</sup> indicates equal contribution.<p>
+
+  
+      {% for paper in site.data.publications.papers %}
+        <div class="paper">
+          <p class="title"><b>{{ paper.title }}</b></p>
+          <p>{{ paper.authors }}</p>
+          <p><i>{{ paper.venue }}</i></p>
+           <div class="paper-buttons">
+            {% if paper.preprint %}
+              <a class="button" href="{{ paper.preprint | prepend: site.baseurl }}" target="_blank">Preprint</a>
+            {% endif %}
+
+            {% if paper.paper_pdf %}
+              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
+            {% endif %}
+
+            {% if paper.workshop_website %}
+              <a class="button" href="{{ paper.workshop_website | prepend: site.baseurl }}" target="_blank">Workshop Website</a>
+            {% endif %}
+            
+            {% if paper.openreview_website %}
+              <a class="button" href="{{ paper.openreview_website | prepend: site.baseurl }}" target="_blank"> OpenReview</a>
+            {% endif %}
+            
+            {% if paper.proceedings_website %}
+              <a class="button" href="{{ paper.proceedings_website | prepend: site.baseurl }}" target="_blank"> Proceedings</a>
+            {% endif %}
+
+
+            {% if paper.code %}
+              <a class="button" href="{{ paper.code | prepend: site.baseurl }}" target="_blank">Code</a>
+            {% endif %}
+
+            {% if paper.slides %}
+              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+            {% endif %}
+
+            {% if paper.poster %}
+              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+            {% endif %}
+
+            {% if paper.UKSPNg %}
+              <a class="button" href="{{ paper.UKSPNg | prepend: site.baseurl }}" target="_blank">UKSP Nugget</a>
+            {% endif %}
+
+
+            {% if paper.pressrel %}
+              <a class="button" href="{{ paper.pressrel | prepend: site.baseurl }}" target="_blank">Press Coverage</a>
+            {% endif %}
+
+            {% if paper.video %}
+              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+            {% endif %}
+
+            {% if paper.notebook %}
+              <a class="button" href="{{ paper.notebook }}" target="_blank">Python Notebook</a>
+            {% endif %}
+
+            {% if paper.data %}
+              <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
+            {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+</div>
+
+
