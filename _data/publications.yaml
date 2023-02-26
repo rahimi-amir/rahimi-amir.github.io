@@ -2,9 +2,19 @@ papers:
 
   - title: "Few-shot Weakly-Supervised Object Detection via Directional Statistics"
     authors: "Amirreza Shaban<sup>‡</sup>, <b>Amir Rahimi</b><sup>‡</sup>, Thalaiyasingam Ajanthan, Byron Boots, Richard Hartley"
-    venue: "Arxiv preprint, 2021"
+    venue: "Winter Conference on Applications of Computer Vision, (WACV 2022), Waikoloa, HI."
     preprint: "https://arxiv.org/abs/2103.14162"
-    paper_pdf: "https://arxiv.org/pdf/2103.14162"
+    proceedings_website: "https://openaccess.thecvf.com/content/WACV2022/html/Shaban_Few-Shot_Weakly-Supervised_Object_Detection_via_Directional_Statistics_WACV_2022_paper.html"
+    paper_pdf: "https://openaccess.thecvf.com/content/WACV2022/papers/Shaban_Few-Shot_Weakly-Supervised_Object_Detection_via_Directional_Statistics_WACV_2022_paper.pdf"
+    selected: y
+  
+  - title: "Semi-Supervised 3D Hand Shape and Pose Estimation with Label Propagation (Oral & Award Candidate)"
+    authors: "Samira Kaviani, <b>Amir Rahimi</b>, Richard Hartley"
+    venue: "Digital Image Computing: Techniques and Applications (DICTA 2021), Gold Coast, QLD, Australia."
+    preprint: "https://arxiv.org/abs/2111.15199"
+    paper_pdf: "https://arxiv.org/pdf/2111.15199"
+    award_url: "http://dicta2021.dictaconference.org/awards.html"
+    award: "<b>Best student paper award</b>"
     selected: y
 
   - title: "Calibration of neural networks using splines"
