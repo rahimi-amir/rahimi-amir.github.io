@@ -1,4 +1,4 @@
-# amir-rahimi.github.io
+# rahimi-amir.github.io
 Personal website
 
 Run your Jekyll site locally:
