@@ -1,7 +1,7 @@
 papers:
   - title: "D3: Data Diversity Design for Systematic Generalization in Visual Question Answering"
     authors: "<b>Amir Rahimi</b>, Vanessa D'Amario, Moyuru Yamada, Kentaro Takemoto, Tomotake Sasaki, Xavier Boix"
-    venue: "Transaction on Machine Learning Research, (TMLR 2024)."
+    venue: "Transactions on Machine Learning Research, (TMLR 2024)."
     preprint: "https://arxiv.org/abs/2309.08798"
     openreview_website: "https://openreview.net/forum?id=ZAin13msOp"
     paper_pdf: "https://openreview.net/pdf?id=ZAin13msOp"
